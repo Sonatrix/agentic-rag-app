@@ -1,0 +1,147 @@
+/* Custom CSS for Agentic RAG Assistant */
+
+/* Main title styling */
+.chainlit-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Welcome message styling */
+.welcome-message {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-left: 4px solid #667eea;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+/* Chat history styling */
+.chat-history-item {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    transition: all 0.2s ease;
+}
+
+.chat-history-item:hover {
+    background: #e9ecef;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Progress bar enhancements */
+.progress-container {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #e9ecef;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #28a745, #20c997);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+/* Button styling */
+.chainlit-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.chainlit-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+/* Message styling */
+.message-content {
+    line-height: 1.6;
+}
+
+/* Robot emoji styling */
+.robot-emoji {
+    font-size: 1.2em;
+    margin-right: 0.5rem;
+}
+
+/* Recent chats section */
+.recent-chats {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-left: 4px solid #28a745;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .welcome-message {
+        background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+        color: #e2e8f0;
+    }
+    
+    .chat-history-item {
+        background: #2d3748;
+        border-color: #4a5568;
+        color: #e2e8f0;
+    }
+    
+    .chat-history-item:hover {
+        background: #4a5568;
+    }
+    
+    .progress-container {
+        background: #2d3748;
+        border-color: #4a5568;
+    }
+    
+    .recent-chats {
+        background: #2d3748;
+        color: #e2e8f0;
+    }
+}
+
+/* Animation for welcome message */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.welcome-message {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .chainlit-header {
+        padding: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .welcome-message {
+        padding: 1rem;
+        margin: 0.75rem 0;
+    }
+    
+    .progress-container {
+        padding: 0.75rem;
+    }
+}

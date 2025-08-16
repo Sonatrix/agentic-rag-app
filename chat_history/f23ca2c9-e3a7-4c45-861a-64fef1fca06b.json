@@ -1,0 +1,28 @@
+{
+  "id": "f23ca2c9-e3a7-4c45-861a-64fef1fca06b",
+  "title": "parse name entity",
+  "created_at": "2025-08-16T14:11:25.567743",
+  "updated_at": "2025-08-16T14:11:25.567747",
+  "messages": [
+    {
+      "type": "human",
+      "content": "parse name entity ",
+      "timestamp": "2025-08-16T14:10:53.646436"
+    },
+    {
+      "type": "ai",
+      "content": "I need more information to parse named entities.  Please provide the text you want me to analyze.",
+      "timestamp": "2025-08-16T14:10:56.820342"
+    },
+    {
+      "type": "human",
+      "content": "what can be built from doc",
+      "timestamp": "2025-08-16T14:11:24.281540"
+    },
+    {
+      "type": "ai",
+      "content": "Based on the provided document, you can build agents using Flow, Apex, and Data Cloud data.  The document also describes how to use Retrieval Augmented Generation (RAG) in Data Cloud to improve the relevance and value of LLM responses.  The process involves defining a data model, identifying necessary data, defining UI/UX, building the solution collaboratively, and preparing a compelling story and demo for presentation.  Tools mentioned include Data Streams and Workbench for data import, export, and manipulation.",
+      "timestamp": "2025-08-16T14:11:25.567709"
+    }
+  ]
+}

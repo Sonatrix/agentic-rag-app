@@ -1,0 +1,18 @@
+{
+  "id": "b9cdcd2b-ca6f-42d0-8c56-d6a38325a340",
+  "title": "summarise it",
+  "created_at": "2025-08-16T14:13:00.141856",
+  "updated_at": "2025-08-16T14:13:00.141861",
+  "messages": [
+    {
+      "type": "human",
+      "content": "summarise it",
+      "timestamp": "2025-08-16T14:12:58.492211"
+    },
+    {
+      "type": "ai",
+      "content": "The document describes how to prepare a final submission for a competition, focusing on creating a compelling story and demo showcasing the solution's value and features.  It details adding metrics to a workspace, specifically \"Open Opportunities\" from \"Sales Executive Data SDM\".  It also explains the importance of descriptions for LLMs and how to add data (assets) to a workspace. Finally, it outlines three data sources: Trading (containing trade details for analysis), Wealth Asset Management (with client information, AUM, and performance data), and Telecom Sales (providing data for market analysis and strategy optimization).",
+      "timestamp": "2025-08-16T14:13:00.141818"
+    }
+  ]
+}
