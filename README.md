@@ -13,7 +13,15 @@ An intelligent document analysis application built with Python, LangGraph, Chain
 - **🎨 Modern UI** - Clean, responsive interface with custom styling
 - **🛠️ Advanced Tools** - Built-in chat management utilities
 
-## 🚀 Setup
+## � Screenshots
+
+### Main Interface
+![Agentic RAG Assistant - Main Interface](docs/images/main-interface.png)
+*Clean, modern interface with chat history and document upload capabilities*
+
+> **Note:** To add your own screenshots, place them in the `docs/images/` directory and update the paths above.
+
+## �🚀 Setup
 
 1.  **Install dependencies:**
     ```bash
@@ -75,3 +83,41 @@ agentic-rag-app/
 ```
 uv run chainlit run app.py -w
 ```
+
+## 🤝 Contributing
+
+### Adding Screenshots
+
+Help improve the documentation by adding screenshots:
+
+1. **Run the application** and navigate to key features
+2. **Take high-quality screenshots** (1200-1600px wide)
+3. **Save as PNG files** in the `docs/images/` directory
+4. **Update README.md** with proper image references
+5. **Follow naming convention**: Use kebab-case (e.g., `main-interface.png`)
+
+See `docs/images/README.md` for detailed screenshot guidelines.
+
+### Development
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- **LangChain** - For the powerful RAG framework
+- **Chainlit** - For the beautiful chat interface
+- **ChromaDB** - For efficient vector storage
+- **Hugging Face** - For the embedding models
+- **Google** - For the Gemini language model
+
+---
+
+*Built with ❤️ for the AI community*
